@@ -1,0 +1,156 @@
+body {
+  background-color: #f2f2f2;
+  /*background-color: white;*/
+  font-family: "Lato", sans-serif;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  /* background-color: #23343c; */
+  background-color: white;
+  overflow-x: hidden;
+}
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#japanese_food {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: relative;
+  opacity: 0.7;
+  z-index: -1;
+  margin-bottom: 0;
+}
+
+#input-box {
+  background-color: #f2f2f2;
+  font-size: 3rem;
+  width: auto;
+  margin: auto;
+  height: auto;
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+#whitebrush {
+  width: 150%;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+  bottom: -9%;
+  left: -20%;
+  z-index: 3;
+}
+/* Navigation bar style */
+.navbar {
+  padding-top: 10px;
+  margin: 0;
+  top: 0;
+  opacity: 0.9;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 9999;
+  overflow-x: hidden;
+}
+
+/* Logo style */
+.logo {
+  width: 150px;
+  height: auto;
+  padding: 0;
+}
+
+.meals-menu {
+  padding: 0;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Permanent Marker", cursive;
+}
+
+/* Centered container for the page content */
+
+a:hover {
+  color: #c70039;
+}
+h1 {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-family: "Permanent Marker", cursive;
+}
+.bawah_h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card img {
+  width: 100%;
+  height: 20%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.card h2 {
+  margin: 20px;
+  font-size: 24px;
+}
+.card p {
+  margin: 0 20px 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.card .ingredients {
+  margin: 0 20px 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.card .ingredients ul {
+  padding-left: 20px;
+}
+.j {
+  color: #c70039;
+}
+footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  z-index: 4;
+}
+footer p {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #c70039;
+  color: #fff;
+  padding: 20px;
+  padding-bottom: 10px;
+  margin: 0;
+  text-align: center;
+  height: 2rem;
+}
